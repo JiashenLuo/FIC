@@ -3,7 +3,6 @@ from .functions import Losses
 from .bpr import BPR
 from .lightgcn import LightGCN
 
-<<<<<<< HEAD
 from .dns import DNS
 from .dnsmn import DNSMN
 from .cuco import CuCo
@@ -30,15 +29,12 @@ from .tag_cf import TAG_CF
 from .cft import CFT
 from .cftcl import CFTCL
 from .cftcl1 import CFTCL1
-=======
 '''ours'''
->>>>>>> 792f037 (initial commit)
 from .fic import FIC
 
 MODEL_MODEL_MAP = {
                     "bpr": BPR,
 
-<<<<<<< HEAD
                     "dns": DNS,
                     "dnsmn": DNSMN,
                     "cuco": CuCo,
@@ -62,12 +58,10 @@ MODEL_MODEL_MAP = {
                     "tag_cf":TAG_CF,
                     "cft":CFT,
                     "cftcl":CFTCL,
-                    "cftcl1":CFTCL1
-=======
+                    "cftcl1":CFTCL1,
 
                     "lightgcn": LightGCN,
                     "fic": FIC,
->>>>>>> 792f037 (initial commit)
                     }
 
 ALL_MODELS = list(MODEL_MODEL_MAP.keys())
