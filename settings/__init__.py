@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from . import bpr, dns, fic, lightgcn, directau, ssm, simgcl, dnsxsimgcl, ahns
 from . import dnsmn, cuco
 from .basic_settings import BasicSettings
@@ -85,8 +84,8 @@ MODEL_SETTING_MAP = {"bpr": BPRSettings,
                         "tag_cf": TAG_CFSettings,
                         "cft": CFTSettings,
                         "cftcl": CFTCLSettings,
-                        "cftcl1": CFTCL1Settings
-=======
+                        "cftcl1": CFTCL1Settings}
+
 from . import fic, bpr, lightgcn
 from .basic_settings import BasicSettings
 from .bpr import BPRSettings
@@ -101,5 +100,4 @@ Model_PARAMS_TABLE = {
 
 MODEL_SETTING_MAP = {
                         'fic': fic.FICSettings,
->>>>>>> 792f037 (initial commit)
                         }
