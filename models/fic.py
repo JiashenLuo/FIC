@@ -1,13 +1,11 @@
-<<<<<<< HEAD
+
 from . import DNS, LightGCN
 from .functions import Losses
 from .functions import HardNegativeSampler as HNS
 from torch import gather
-=======
 from . import LightGCN
 from .functions import Losses
 from .functions import HardNegativeSampler as HNS
->>>>>>> 792f037 (initial commit)
 from settings import FICSettings
 '''
 farther is closer
